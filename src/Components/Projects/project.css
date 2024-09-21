@@ -19,7 +19,7 @@
 /* .container{
     height: 15cm;
 } */
-.container .mainHeader{
+.container2 .mainHeader{
     color: rgb(89, 231, 89);
     font-family: serif;
     font-size: 0.9cm;
@@ -29,7 +29,7 @@
 /* .bottom-border{
     color: rgb(73, 176, 73);
 } */
-.container .box {
+.container2 .box {
     padding: 15px;
     border: 2px solid rgb(73, 176, 73);
     border-radius: 5px;
@@ -39,13 +39,13 @@
     transition: opacity 5s;
 }
 
-.container .box h4{
+.container2 .box h4{
     color: rgb(89, 231, 89);
     font-family: serif;
     font-size: 0.9cm;
     letter-spacing: 5px;
 }
-.container .box p{
+.container2 .box p{
     padding: 2px;
     color: rgb(73, 176, 73);
     opacity: 0.6;
@@ -54,12 +54,17 @@
 }
 
 
-.container {
+.container2 {
     scroll-behavior: smooth;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    
   }
   
 
   
-  .container .box.in-view {
+  .container2 .box.in-view {
     opacity: 10;
+    
   }

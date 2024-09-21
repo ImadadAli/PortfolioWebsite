@@ -22,7 +22,7 @@ const Contact = () => {
               <i style={{ color: 'rgb(73, 176, 73) ' }} className='fab fa-github fa-2x'></i>
             </a>
           </div>
-          <div class="container">
+          <div class="container1">
         <form>
             <input type="text" class="form-control" id="name" placeholder="Enter Your Name" />
             <input type="email" class="form-control" id="email" placeholder="Enter Your Email" />

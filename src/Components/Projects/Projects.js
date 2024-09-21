@@ -11,7 +11,7 @@ const Projects = () => {
       <h2 className="text-center mt-5 font" data-aos="fade-down">Let Me show my projects</h2>
       <hr className="bottom-border" />
       {data.map((val) => (
-        <div className="container" data-aos="flip-left"
+        <div className="container2" data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">
           <h3 className="mainHeader">{val.title}</h3>
