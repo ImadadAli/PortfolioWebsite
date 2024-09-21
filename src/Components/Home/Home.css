@@ -1,0 +1,120 @@
+:root {
+    --box-shadow: 5px 5px 10px 0px rgb(35, 158, 35);
+  }
+  body{
+    /* height: cm; */
+    background-color: black;
+    padding-top: 70px; 
+}
+  .main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 13cm;
+    /* background-color: black; */
+  }
+  
+  .main .right .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main .right .img img {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: 2px solid rgb(35, 158, 35);
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  .main .left {
+    width: 650px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(73, 176, 73);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .main .left h2 {
+    color: rgb(73, 176, 73);
+    font-family: serif;
+    letter-spacing: 7px;
+    display: block;
+    font-size: 1cm;
+  }
+  
+  @keyframes animation {
+    0% {
+      border-color: rgb(1, 45, 1);
+      transform: translate(0, 0px);
+      box-shadow: 10px 10px 100px 50px rgb(1, 45, 1);
+    }
+    25% {
+      border-color: rgb(24, 123, 24);
+      box-shadow: 10px 10px 100px 50px rgb(24, 123, 24);
+    }
+    50% {
+      border-color: rgb(18, 61, 18);
+      transform: translate(0, 10px);
+      box-shadow: 10px 10px 100px 50px rgb(18, 61, 18);
+    }
+    75% {
+      border-color: rgb(35, 198, 35);
+      box-shadow: 10px 10px 100px 50px rgb(35, 198, 35);
+    }
+    100% {
+      border-color: rgb(23, 50, 23);
+      transform: translate(0, 0px);
+      box-shadow: 10px 10px 100px 50px rgb(23, 50, 23);
+    }
+  }
+  
+  /* Media queries for responsiveness */
+  
+  /* For screens with a maximum width of 1200px */
+  @media (max-width: 1200px) {
+    .main {
+      flex-direction: column;
+      align-items: center;
+    }
+    .main .left {
+      width: 80%;
+      margin: 20px;
+    }
+    .main .right .img img {
+      height: 250px;
+      width: 250px;
+    }
+  }
+  
+  /* For screens with a maximum width of 900px */
+  @media (max-width: 900px) {
+    .main .left {
+      width: 90%;
+      margin: 10px;
+    }
+    .main .right .img img {
+      height: 200px;
+      width: 200px;
+    }
+  }
+  
+  /* For screens with a maximum width of 600px */
+  @media (max-width: 2cm) {
+    .main {
+      flex-direction: column;
+      align-items: center;
+    }
+    .main .left {
+      width: 95%;
+      margin: 10px;
+    }
+    .main .right .img img {
+      height: 150px;
+      width: 150px;
+    }
+  }

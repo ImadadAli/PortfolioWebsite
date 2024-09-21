@@ -1,0 +1,65 @@
+
+:root {
+    --box-shadow: 5px 5px 10px 0px rgb(35, 158, 35);
+    --box-shadow2: 0px 0px 5px 5px rgb(35, 158, 35);
+  }
+/* *{
+    background-color: black;
+} */
+
+.font{
+    color: rgb(73, 176, 73);
+    /* display: inline-block; */
+    font-size: 1cm;
+    font-family: serif;
+    letter-spacing: 7px;
+    
+
+}
+/* .container{
+    height: 15cm;
+} */
+.container .mainHeader{
+    color: rgb(89, 231, 89);
+    font-family: serif;
+    font-size: 0.9cm;
+    letter-spacing: 5px;
+ 
+}
+/* .bottom-border{
+    color: rgb(73, 176, 73);
+} */
+.container .box {
+    padding: 15px;
+    border: 2px solid rgb(73, 176, 73);
+    border-radius: 5px;
+    box-shadow: var(--box-shadow2);
+    margin-top: 0.7cm;
+    /* opacity: 0; */
+    transition: opacity 5s;
+}
+
+.container .box h4{
+    color: rgb(89, 231, 89);
+    font-family: serif;
+    font-size: 0.9cm;
+    letter-spacing: 5px;
+}
+.container .box p{
+    padding: 2px;
+    color: rgb(73, 176, 73);
+    opacity: 0.6;
+    letter-spacing: 2px;
+    box-shadow: var(--box-shadow);
+}
+
+
+.container {
+    scroll-behavior: smooth;
+  }
+  
+
+  
+  .container .box.in-view {
+    opacity: 10;
+  }

@@ -1,0 +1,26 @@
+.navbar .navbar-nav .nav-item a{
+    padding: 15px;
+    
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #28a745;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    border: 1px solid #28a745;
+}
+
+.navbar .navbar-nav .nav-but {
+    padding: 5px;
+}
+.navbar .navbar-brand{
+    color: #28a745;
+    font-size: 1cm;
+    font-family: 'Courier New', Courier, 'Courier New', Courier, monospace;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }

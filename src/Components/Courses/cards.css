@@ -1,0 +1,25 @@
+.main-body .upper h2{
+    color: rgb(73, 176, 73);
+    display: inline-block;
+    font-size: 1cm;
+    font-family: serif;
+    letter-spacing: 7px;
+}
+.card{
+    width: 18rem;
+    border: 2px solid rgb(73, 176, 73);
+    background-color: black;
+    /* margin-top: 3px; */
+}
+.card-title{
+    color: rgb(89, 231, 89);
+    font-family: serif;
+    font-size: 0.9cm;
+    letter-spacing: 5px;
+}
+.card-text{
+    /* color: rgb(110, 168, 110);       */
+    color: rgb(73, 176, 73);
+    opacity: 0.6;
+    letter-spacing: 2px;
+}
